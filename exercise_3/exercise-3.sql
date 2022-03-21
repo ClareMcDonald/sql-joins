@@ -7,7 +7,7 @@ FROM
 LEFT JOIN
     film_category
 ON
-    film.film_id = film_category.film_id;
+    film.film_id = film_category.film_id
 -- use LEFT JOIN FROM film_categor onto category
 LEFT JOIN
     category
